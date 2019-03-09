@@ -465,6 +465,11 @@
 		s0.parentNode.insertBefore(s1,s0);
 		})();
 		</script>
+	<script>
+		$.get("http://ipinfo.io", function(response) {
+    console.log(response.city, response.country);
+}, "jsonp");
+	</script>
 </body>
 
 </html>
