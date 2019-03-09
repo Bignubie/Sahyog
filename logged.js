@@ -13,3 +13,6 @@ document.querySelector('.signinbtn').setAttribute('style','display:none;');
 document.querySelector('.pcontent').setAttribute('style','display:block;');
 document.querySelector('.pcontent').innerHTML = profile.getName();
 }
+if (localStorage.getItem('doc') === 'true') {
+    window.location = 'doctor.html';
+}

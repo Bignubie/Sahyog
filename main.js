@@ -9,3 +9,13 @@ document.querySelector('.dbtn').onclick = function() {
     document.querySelector('.def').classList.remove('hideme');
     document.querySelector('.dli').classList.remove('hideme');
 }
+document.querySelector('.dloginbtn').onclick = function() {
+    var email = document.querySelector('.dlogine').value;
+    var password = document.querySelector('.dloginp').value;
+    if (email === 'abc@abc.com' && password === '1234') {
+        localStorage.setItem('doc','true');
+        window.location = 'doctor.html';
+    } else {
+        alert('Invalid Credentials');
+    }
+}

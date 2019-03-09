@@ -68,15 +68,15 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="departments.html">Department</a></li>
-							<li class="nav-item"><a class="nav-link" href="shop.html">Shops</a></li>
-							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-							<li class="nav-item active signinbtn"><a class="nav-link" href="signin.html">LOG IN</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.html" style="visibility:hidden;">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="about-us.html" style="visibility:hidden;">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="departments.html" style="visibility:hidden;">Department</a></li>
+							<li class="nav-item"><a class="nav-link" href="shop.html" style="visibility:hidden;">Shops</a></li>
+							<li class="nav-item"><a class="nav-link" href="blog.html" style="visibility:hidden;">Blog</a></li>
+							<li class="nav-item active signinbtn"><a class="nav-link" href="signin.html" style="visibility:hidden;">LOG IN</a></li>
                             <li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle pcontent" style="display:none;" data-toggle="dropdown" role="button" aria-haspopup="true"
-									 aria-expanded="false"></a>
+									<a href="#" class="nav-link dropdown-toggle pcontent" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Name Of Doctor</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" onclick="signOut();" href="#">SignOut</a></li>
 									</ul>
@@ -102,9 +102,9 @@
                 <div class="banner_content text-center">
                     <div class="page_link">
                         <a href="index.html">Home</a>
-                        <a href="contact.html">Sign In</a>
+                        <a href="contact.html">Doctors</a>
                     </div>
-                    <h2>Login / Register</h2>
+                    <h2>Doctors Area</h2>
                 </div>
             </div>
         </div>
@@ -115,68 +115,14 @@
     <section class="contact_area section_gap">
         <div class="container">
                 <center>
-                <button class = "primary-btn text-uppercase nbtn" style="width:236px;">Login/Register</button>
+                <button class = "primary-btn text-uppercase" style="width:236px;">Write a Blog</button>
                 <br>
                 <br>
                 <br>
-                <button class = "primary-btn text-uppercase dbtn">Doctor Register/Login</button>
-                <div class="abc hideme">
-                    Sign In with Google
-                    <br>
-                    <br>
-                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                </div>
-                <div class="dli hideme">
-                        <span style="font-size:18px;">Login</span>
-                        <br>
-                        <br>
-                        <table>
-                            <tr>
-                                <td>
-                                    Sample Email: abc@abc.com 
-                                </td>
-                                <td>
-                                </td>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                    Sample Password: 1234
-                                </td>
-                            </tr>
-                        </table>
-                        <br>
-                        <div class="form-group">
-                                <input type="text" class="form-control dlogine" id="email" name="email" style="width:600px;" placeholder="Enter your email id">
-                        </div>
-                        <div class="form-group">
-                                <input type="password" class="form-control dloginp" id="name" name="name" style="width:600px;" placeholder="Password">
-                            </div>
-                       
-                        <button class = "primary-btn dloginbtn text-uppercase">Login</button>
-                        <br>
-                        <br>
-                </div>
-                <div class="def hideme " style="border-top:1px solid grey;">
-                    <br>    
-                    <span style="font-size:18px;">Create a account</span>
-                    <br>
-                    <br>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" style="width:600px;" placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" id="email" name="email" style="width:600px;" placeholder="Enter your email id">
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" id="link" name="link" style="width:600px;" placeholder="Provide a link to your certifications">
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" id="y" name="y" style="width:600px;" placeholder="Years of experience">
-                    </div>
-                    <button class = "primary-btn text-uppercase" onclick="alert('Your Data Has Been Sent To Our Servers. You Will Be Notified By Email')">Submit</button>
-                    <br>
-                    <br>    
-                </div>
+               <h3>Notifications From The Patients</h3>
+               <br>
+               <br>
+               No Notifications
             </center>
         </div>
     </section>
@@ -273,7 +219,7 @@
 	<!--gmaps Js-->
     <script src="js/theme.js"></script>
     <script src="main.js"></script>
-    <script src="logged.js"></script>
+    <script src="doc.js"></script>
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
